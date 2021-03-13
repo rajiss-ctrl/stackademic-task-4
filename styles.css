@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Puppin", sans-serif;
+}
+header {
+  min-width: 100%;
+  border-bottom: solid #eddede8f;
+}
+.logo {
+  font-size: clamp(2em, 5vw, 3em);
+}
+.remark--heading {
+  font-size: clamp(2em, 5vw, 3em);
+}
+.nav__bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 5%;
+}
+.nav__bg .services {
+  display: flex;
+}
+.nav__bg .services li {
+  list-style: none;
+  margin-right: 0.8em;
+  font-size: 1.1em;
+  display: none;
+}
+.nav__bg .login {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.nav__bg .signup {
+  background: #1942ca;
+  width: 30%;
+  border-radius: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 1%;
+  color: #fff;
+}
+.intro__section {
+  width: 100%;
+  padding: 5%;
+}
+.intro__section--remark,
+.intro__section--img {
+  width: 100%;
+}
+.intro__section--remark p {
+  margin-bottom: 10px;
+  font-size: clamp(1.5em, 5vw, 1em);
+}
+.btn__intro {
+  display: flex;
+  width: 100%;
+}
+.intro__section .link {
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 18px;
+  background: #1942ca;
+  font-size: clamp(0.9rem, 5vw, 1.5em);
+  color: #fff;
+  width: 45%;
+  padding: 0.8rem;
+  margin-right: 1em;
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+.start {
+  width: 100%;
+  padding: 5%;
+  background: #1942ca91;
+}
+.start--heading {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: clamp(2em, 5vw, 3em);
+}
+.start .start--createAcc,
+.start--sub,
+.start--congrat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #fff;
+  padding: 5%;
+  margin-bottom: 10px;
+}
+.start--createAcc h2,
+.start--sub h2,
+.start--congrat h2 {
+  font-size: clamp(2em, 5vw, 3em);
+  margin-bottom: 10px;
+}
+.start--createAcc p,
+.start--sub p,
+.start--congrat p {
+  font-size: clamp(1.3em, 5vw, 1.5rem);
+  text-align: start;
+  margin-bottom: 2rem;
+}
+.start--btn {
+  margin-bottom: 10px;
+}
+.start--createAcc .start--btn a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 20px;
+  background: #1942ca;
+  font-size: clamp(0.9rem, 5vw, 1em);
+  width: 48%;
+  padding: 0.8rem;
+  text-align: center;
+}
+.start--sub .start--btn a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 20px;
+  background: #1942ca;
+  font-size: clamp(0.9rem, 5vw, 1em);
+  width: 48%;
+  padding: 0.8rem;
+  text-align: center;
+}
+.start--congrat .start--btn a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 20px;
+  background: #1942ca;
+  font-size: clamp(0.9rem, 5vw, 1em);
+  width: 48%;
+  padding: 0.8rem;
+  text-align: center;
+}
+.class__section {
+  padding: 5%;
+}
+.class__section--img {
+  background: #1942ca;
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  text-align: center;
+}
+.class__section--img img {
+  width: 75%;
+}
+.class__section .class__section--note {
+  margin-bottom: 10px;
+}
+.class__section--note h2 {
+  font-size: clamp(2em, 5vw, 3em);
+  margin-bottom: 10px;
+}
+.class__section--note p,
+.class__section h3,
+.class__section h3 a {
+  font-size: clamp(1.3em, 5vw, 1.5rem);
+  text-align: start;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #112c77;
+}
+footer {
+  padding: 2%;
+  width: 100%;
+  background: #100e1d;
+  color: #fff;
+}
+footer .aboutus {
+  font-size: clamp(1em, 5vw, 1.5rem);
+  margin-bottom: 1rem;
+}
+.teechainfo {
+  text-align: start;
+}
+.teechainfo ul li {
+  list-style: none;
+}
+@media screen and (min-width: 500px) {
+  .intro__section .link {
+    font-size: clamp(0.9rem, 5vw, 1.5em);
+    width: 33%;
+    padding: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 779px) {
+  .intro__section .link {
+    font-size: clamp(0.9rem, 5vw, 1.5em);
+    width: 45%;
+  }
+  .intro__section {
+    display: flex;
+  }
+  .gridclass {
+    width: 100%;
+    display: flex;
+  }
+  .start .start--createAcc,
+  .start .start--sub,
+  .start .start--congrat {
+    padding: 1%;
+    width: 33%;
+    margin: 1%;
+  }
+  .start--createAcc h2,
+  .start--sub h2,
+  .start--congrat h2 {
+    font-size: 30px;
+  }
+  .class__section--img img {
+    margin-top: 0;
+  }
+  .nav__bg .signup {
+    width: 20%;
+    font-size: 1.2em;
+    padding: 1%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .nav__bg .services li {
+    font-size: 20px;
+    display: block;
+    margin-right: 0;
+  }
+  .nav__bg .services li a {
+    text-decoration: none;
+  }
+  .nav__bg .services li a:hover {
+    background: #1942ca;
+    color: #fff;
+    font-size: 16px;
+  }
+  .intro__section .link {
+    font-size: 18px;
+    width: 28%;
+  }
+  .nav__bg .signup {
+    width: 10%;
+  }
+  .class__section h2,
+  .class__section h3 {
+    font-size: 30px;
+  }
+}
